@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Map</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="fontello.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body>
+	
+	<div class="main">
+		<ul class="controls">
+			<li class="controls__item"><button class="btn-style2 zoom-button"><i class="icon icon-zoom-in-1"></i></button></li>
+			<li class="controls__item"><button class="btn-style2 edit-button"><i class="icon icon-location-inv"></i></button></li>
+			<li class="controls__item"><button class="btn-style2 btn-style2_enable js-btn-filter"><i class="icon icon-male"></i></button></li>
+			<li class="controls__item"><button class="btn-style2 btn-style2_enable js-btn-filter"><i class="icon icon-globe"></i></button></li>
+		</ul>
+		
+		<div class="map-wrapper">
+			<div class="map"><img src="map.jpg" alt=""></div>
+		</div>
+	</div>
+	
+	<!-- Манипуляция с смаой картой -->
+	<script type="text/javascript" src="map.js"></script>
+	<!-- Работа с элементами на карте -->
+	<script type="text/javascript" src="edit.js"></script>
+</body>
+</html>
